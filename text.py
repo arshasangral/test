@@ -1,6 +1,6 @@
 lst = ['qwertyuiop','asdfghjkl','zxcvbnm']
 words = ["Hello","Alaska","Dad","Peace"]
-lst1 = []
+lst2 = []
 
 for word in words:
   flag = True  
@@ -11,7 +11,7 @@ for word in words:
                 flag = False
                 break
         if flag == True:
-            lst1.append(word)
+            lst2.append(word)
 
-print(lst1)   
+print(lst2)   
   
